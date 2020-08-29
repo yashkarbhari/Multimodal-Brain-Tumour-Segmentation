@@ -7,3 +7,7 @@ This U-Net was built for the [MICCAI BraTS dataset][BraTS]. This U-Net was based
 
 ## BRATS Dataset 
 I have used BRATS 2017 training dataset for the analysis of the proposed methodology. It consists of real patient images as well as synthetic images created by MICCAI. Each of these folders are then subdivided into High Grade and Low Grade images. For each patient, four modalities(T1, T1-C, T2 and FLAIR) are provided. The fifth image has ground truth labels for each pixel. The dimensions of images are (240,240,155) in both.
+
+### 3D U-Net Architecture :
+
+![](Images/3dunet.png)
